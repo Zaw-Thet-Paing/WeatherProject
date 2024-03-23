@@ -12,7 +12,7 @@ int REF_3V3 = A1;
 void setup()
 {
   Serial.begin(9600);
-
+  Serial.begin("hello");
   if (pressure.begin()) {
   }
   else
